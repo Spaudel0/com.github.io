@@ -1,7 +1,6 @@
-const APP_ID = "YOUR APP ID"
-const TOKEN = "YOUR TEMP TOKEN"
-const CHANNEL = "YOUR CHANNEL NAME"
-
+const APP_ID = "c8786c707c0643608814774721f17ea0"
+const TOKEN = "007eJxTYHi6nu2PyAGjwFkdF58zPV6oNqcjjqfz/lym/0l573/dYz+owJBsYW5hlmxuYJ5sYGZibGZgYWFoYm5uYm5kmGZonpposGKvY1pDICOD3tc4JkYGCATxORl8MstSkxNzcowYGABQsSHx"
+const CHANNEL = "Livecall2"
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
 
 let localTracks = []
